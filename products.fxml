@@ -1,0 +1,14 @@
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.ProductController"
+      spacing="10" padding="10">
+
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn text="Nom" fx:id="colName"/>
+            <TableColumn text="Catégorie" fx:id="colCategory"/>
+            <TableColumn text="Prix" fx:id="colPrice"/>
+            <TableColumn text="Stock" fx:id="colStock"/>
+        </columns>
+    </TableView>
+
+</VBox>
