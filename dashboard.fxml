@@ -1,0 +1,15 @@
+<TabPane xmlns:fx="http://javafx.com/fxml">
+    <tabs>
+        <Tab text="Produits">
+            <content>
+                <fx:include source="products.fxml"/>
+            </content>
+        </Tab>
+
+        <Tab text="Clients">
+            <content>
+                <fx:include source="clients.fxml"/>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
