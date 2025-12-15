@@ -1,0 +1,12 @@
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.ClientController"
+      spacing="10" padding="10">
+
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn text="Nom" fx:id="colName"/>
+            <TableColumn text="Email" fx:id="colEmail"/>
+        </columns>
+    </TableView>
+
+</VBox>
